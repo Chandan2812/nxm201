@@ -5,3 +5,4 @@ jobs :
           steps:
                 - run : node --version
                 - name: Print Node Version
+                  run: node -v
